@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>MobileNet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <div class="col-xs-12 header_div">
+      <h2 id="edit1">Hello!</h2>
+      <br>
+      <br>
+      <b id="edit2">Welcome to the Azure Case Study app</b><span><img id="editImg"class="responsive"src="Screenshot 2021-06-07 145446"></span></div>
+      <br>
+      <br>
+      <span>
+      <div id="d1" class="col-lg-9 col-md-6 col-sm-6 col-xs-12">
+        <h4>Take photo here</h4>
+        <div id=camera></div>
+        <button class="btn btn-success " onclick="takeSnap();">Take photo</button>
+      </div><br><br>
+      <div id="d2"class="col-lg-9 col-md-12 col-sm-6 col-xs-12">
+        <h4>Taken photo</h4>
+        <div id=Pic></div>
+        <button class="btn btn-warning " onclick="IDSnap();">Identify photo</button>
+      </div>
+    </div>
+  </span></center>
+    <div class="footer_div col-xs-12" >
+      <h4 class="col-sm-6 col-xs-12">
+      <img src="Screenshot 2021-06-07 145558.jpg">
+      <span id="objID"></span></h4></div>
+      <div class="Copyrights"></div>
+  <script src="JS.js"></script>
+</body>
+
+</html>

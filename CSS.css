@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: crimson;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+#edit1{
+height: 100px;
+width:150px;
+font-size:40px ;
+}
+#edit2{
+height: 100px;
+width:300px;
+font-size:40px ;
+}
+#d1{
+background-color: aquamarine;
+color:rgb(0, 0, 0);
+border:3px dashed crimson;
+box-shadow: 7px;
+height: max-content;
+width: max-content;
+}
+#d2{
+background-color: aquamarine;
+color:rgb(0, 0, 0);
+border:3px dashed crimson;
+box-shadow: 7px;
+height: max-content;
+width: max-content;
+}
+#editImg{
+height: 200px;
+width: 250px;
+}
+#camera{
+border: 5px dotted rgb(25, 0, 95);
+width: 350px;
+height: 300px;   
+}
+#Pic{
+border: 5px dotted rgb(122, 15, 15);
+width: 350px;
+height: 300px;   
+}
+.footer_div{
+margin-bottom: 50px;
+text-align: left;
+}
+.footer_div h4{
+background-color: firebrick;
+color:darkgray;
+border-radius:30px;
+box-shadow: 5px 5px 18px black;
+}
+.footer_div img{
+width:70px;
+height:70px;
+
+}
+.Copyrights{
+position: fixed;
+color:crimson;
+bottom: 0;
+width: 100%;
+background-color: black;
+}
